@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p {
+    color: dimgray;
+}
+.name{
+    color:orange
+}
+.display{
+    display: flex;
+}
+.portfolio{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.developer{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+margin: 10% 0 0 0;
+}
+.half-width{
+    width: 50%;
+    padding: 0 0 0 2%;
+    margin: 0 0 0 2%;
+}
+.half-width p{
+    width:80%
+}
+
+.left-width{
+    width: 55%;
+    padding: 0 0 0 2%;
+    margin: 0 0 0 2%;
+}
+.left-width p{
+    width: 80%;
+}
+.right-width{
+    width: 45%;
+    padding: 0 0 0 2%;
+    margin: 0 0 0 2%;
+}
+.right-width img{
+    width: 100%;
+}
+.half-width img{
+    width: 80%;
+}
+.hire-me{
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient(tomato,red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.download-resume{
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient(tomato,red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.full-stack{
+    width: 45%;
+    padding: 0 0 8% 2%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px grey;
+    margin: 0 2% 0 2%;
+}
+.web-dev{
+    width: 45%;
+    padding: 0 0 8% 2%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px grey;
+    margin: 0 2% 0 2%;
+}
+footer{
+margin:8% 0 0 2%;
+text-align: center;
+}
